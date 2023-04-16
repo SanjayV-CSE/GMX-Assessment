@@ -1,0 +1,119 @@
+@font-face {
+  font-family: ff3;
+  src: url("fonts/ff3.ttf");
+}
+.tst1 {
+  width: 1rem;
+}
+a {
+  cursor: default;
+}
+#we3 {
+  width: 17rem;
+  height: 18rem;
+}
+#we4 {
+  width: 18rem;
+  height: 19rem;
+}
+#we5 {
+  width: 18rem;
+  height: 19rem;
+}
+
+body {
+  font-family: ff3;
+  background: linear-gradient(
+    90deg,
+    hsla(239, 100%, 67%, 1) 0%,
+    hsla(187, 100%, 89%, 1) 100%
+  );
+}
+/*  */
+.txt1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: ff3;
+}
+.dia1 {
+  width: 50rem;
+  height: 40rem;
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+  margin: 0;
+  border-radius: 2rem;
+  /* border: 0.5rem solid black; */
+}
+#show11 {
+  width: 18rem;
+  /* position: absolute;
+  left: 27%; */
+}
+.card1 {
+  display: flex;
+  margin-top: 2rem;
+}
+.card {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* flex-grow: 1; */
+  margin-top: 4rem;
+  gap: 1rem;
+}
+.cardimg1 {
+  /* transition: all 0.2s ease-in-out; */
+  width: 20rem;
+}
+/* .cardimg1:hover {
+  transform: scale(1.1);
+} */
+
+.toplogo1 {
+  width: 11rem;
+  margin: 0.6rem;
+}
+.ttimg {
+  /* display: flex;
+  justify-content: flex-end; */
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  margin-top: 1rem;
+}
+.llg1 {
+  margin: 0rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+}
+.imggg1 {
+  width: 4.5rem;
+  position: absolute;
+  top: 0;
+  right: 10rem;
+}
+@media screen and (max-width: 400px) {
+  .toplogo1 {
+    width: 6rem;
+    margin: 0.6rem;
+  }
+  .llg1 {
+    font-size: 0;
+    padding: 0;
+  }
+  .dia1 {
+    width: 2rem;
+  }
+}
